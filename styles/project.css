@@ -26,6 +26,42 @@ header p {
 }
 
 .nav-link:hover{
-    color:burlywood;
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    bottom: 0;
+    margin-top: 4rem;
+    border-top: 2px solid black;
+}
+#footer-heading{
+    display:block;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-link{
+    padding: 5px;
+}
+.footer-img {
+    width:3rem;
 }
 

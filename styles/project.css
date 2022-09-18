@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+/* Header */
 header{
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,63 @@ header p {
 .nav-link:hover{
     color:blue;
 }
+
+
+
+
+
+/* main body */
+
+.home-images {
+    display: block;
+    margin:auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    width:400px;
+}
+
+.project-list{
+    list-style-type: none;
+}
+.project-list-items{
+    border: 2px solid white;
+    padding: 1rem;
+    max-width: 90vh;
+    margin:auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.bg-wheat {
+    background-color: wheat;
+}
+
+.project-btn-link{
+    text-decoration:none;
+    border: 2px solid blue;
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+      
+}
+.primary-link{
+    text-decoration:none;
+    border: 2px solid blue;
+    padding: 5px;
+    background-color: #0000ff;
+    color: white;
+}
+.primary-link:hover{
+    background-color:white;
+    color:black;
+}
+.links{
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+
+
 
 
 
@@ -64,4 +121,5 @@ footer{
 .footer-img {
     width:3rem;
 }
+
 

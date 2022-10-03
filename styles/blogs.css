@@ -31,14 +31,39 @@ header p {
 }
 
 .nav-link:hover{
-    color:blue;
+    color:hsl(240, 100%, 50%);
+}
+.home-images {
+    display: block;
+    margin:auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    width:400px;
+}
+.project-list{
+    list-style-type: none;
+}
+.project-list-items{
+    border: 2px solid white;
+    padding: 2rem;
+    max-width: 90vh;
+    margin:auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
+.bg-wheat {
+    background-color: #f5deb2;
+}
 
-
-
-
-
+.project-btn-link{
+    text-decoration:none;
+    border: 2px solid blue;
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+      
+}
 
 
 
